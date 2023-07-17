@@ -1,0 +1,76 @@
+/*
+---------------------------------------------
+root
+---------------------------------------------
+*/
+:root{
+  /* font */
+  --f-m-color : #2a2a2a;
+  --f-g-color : #aaa;
+  --f-n-size : .9375rem;
+
+  /* color */
+  --bg-color : #2a2a2a;
+ 
+ 
+  /* element interval */
+  --el-s-interval : 1.875rem;
+ }
+
+ /*
+---------------------------------------------
+Container - fit center element
+---------------------------------------------
+*/
+.container{
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
+  margin: auto;
+}
+
+/* Sub Section Padding */
+.sub-section{
+  padding: 5.525rem 0;;
+}
+
+
+/* Dot Bottom */
+.dot-bottom{
+  border-bottom: 2px dotted #eee;
+}
+
+/* Common Button Style  */
+.common-btn{
+  font-size: .875rem;
+  border: 1px solid #fff;
+  font-weight: 500;
+  color: #fff;
+  width: fit-content;
+  padding: .75rem 1.25rem;
+  transition: all 0.4s;
+}
+
+.common-btn:hover{
+  color: var(--f-m-color);
+  background: #fff;
+}
+
+/* section title style */
+.section-title{
+  width: 100%;
+  height: auto;
+}
+
+.section-title h3{
+  font-size: 2.125rem;
+  font-weight: 700;
+  color: var(--f-m-color);
+}
+
+.section-title p{
+  font-size: 0.875rem;
+  color: var(--f-g-color);
+  font-style: italic;
+  font-weight: 400;
+}
